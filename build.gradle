@@ -5,6 +5,9 @@ buildscript {
         jcenter()
         mavenCentral()
         maven {
+            url "https://jitpack.io"
+        }
+        maven {
             url 'http://localhost:8081/repository/music_release/'
             credentials {
                 username 'admin'
@@ -20,6 +23,7 @@ buildscript {
             }
 
         }
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
@@ -32,6 +36,9 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
         maven {
             url 'http://localhost:8081/repository/music_release/'
             credentials {

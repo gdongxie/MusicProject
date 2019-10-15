@@ -11,10 +11,14 @@ ext {
     ]
 
     depsVersion = [
-            appcompat: '1.0.2'
+            appcompat       : '1.0.2',
+            indicator       : '1.5.0',
+            constraintlayout: '1.1.3'
     ]
 
     depsLibs = [
-            appcompat: "androidx.appcompat:appcompat:${depsVersion.appcompat}"
+            appcompat       : "androidx.appcompat:appcompat:${depsVersion.appcompat}",
+            indicator       : "com.github.hackware1993:MagicIndicator:${depsVersion.indicator}",
+            constraintlayout: "androidx.constraintlayout:constraintlayout:${depsVersion.constraintlayout}"
     ]
 }
