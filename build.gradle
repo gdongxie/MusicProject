@@ -1,0 +1,57 @@
+apply from: this.rootProject.file('music.gradle')
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url 'http://localhost:8081/repository/music_release/'
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
+
+        }
+        maven {
+            url 'http://localhost:8081/repository/music_snapshot/'
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
+
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url 'http://localhost:8081/repository/music_release/'
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
+
+        }
+        maven {
+            url 'http://localhost:8081/repository/music_snapshot/'
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
+
+        }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
