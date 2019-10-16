@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.dongxie.lib_common_ui.base.BaseActivity;
 import com.dongxie.lib_common_ui.pager_indictor.ScaleTransitionPagerTitleView;
 import com.dongxie.music.R;
 import com.dongxie.music.model.CHANNEL;
@@ -27,7 +27,7 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.Simple
 /**
  * @author dongxie
  */
-public class HomeActivity extends FragmentActivity implements View.OnClickListener {
+public class HomeActivity extends BaseActivity implements View.OnClickListener {
     private static final CHANNEL[] CHANNELS = new CHANNEL[]{CHANNEL.MY, CHANNEL.DISCORY, CHANNEL.FRIEND};
 
     private DrawerLayout mDrawerLayout;
