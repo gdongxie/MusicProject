@@ -29,4 +29,5 @@ dependencies {
     implementation this.rootProject.depsLibs.constraintlayout
     implementation this.rootProject.depsLibs.indicator
     implementation project(':lib_common_ui')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }

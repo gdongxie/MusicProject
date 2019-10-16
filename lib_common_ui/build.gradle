@@ -27,5 +27,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation this.rootProject.depsLibs.appcompat
+    api this.rootProject.depsLibs.indicator
 
 }

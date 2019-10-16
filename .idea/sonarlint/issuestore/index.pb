@@ -38,3 +38,33 @@ A
 local.properties,0\7\0712df971a99ac4d2fccb8e0fb19f377f3374cca
 <
 music.gradle,9\5\9580e108d030d06438c63a90f59f512fe97b55e8
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+z
+Jlib_common_ui/src/main/java/com/dongxie/lib_common_ui/HornizeItemView.java,f\7\f707b7521596fafe35ba3f2cec38b44f7bf8b2db
+{
+Klib_common_ui/src/main/java/com/dongxie/lib_common_ui/VerticalItemView.java,4\1\4172ab2e10a1579fb40916ee8f6ef905a215ff1f
+[
++lib_common_ui/src/main/res/values/attrs.xml,5\9\59d90260c8c68b6201dfe77fd23ad0a69a6b2c01
+Y
+)lib_common_ui/src/main/res/values/ids.xml,c\9\c9a10b90a691621c05fa930b486902122824b8d1
+c
+3music_voice/src/main/res/drawable/bg_home_login.xml,8\8\88b58f77143784b796695104da725154f503ddd2
+a
+1music_voice/src/main/res/layout/activity_main.xml,d\7\d7c6768f20e08fc961f42f3972c9ca71db238dea
+Z
+*music_voice/src/main/res/values/colors.xml,d\9\d9ef4147be978188e9f8c955c2007cbd5463e0b9
+[
++music_voice/src/main/res/values/strings.xml,2\1\21eea0d103446f1ea0c295f2aa3d7c1f3c08af04
+a
+1music_voice/src/main/res/layout/layout_drawer.xml,5\a\5ae9c76e9900c865c930a217f535a7a3386fd8b4
+a
+1music_voice/src/main/res/drawable/bg_home_tip.xml,c\3\c339e4b40f8826f18d788432c42bb064151ad5eb
+X
+(music_voice/src/main/AndroidManifest.xml,2\0\2034060a13f93a6878e216d73c115463c626cfe5
+a
+1music_voice/src/main/res/layout/activity_home.xml,9\f\9f38ce7b722ac60d34df9b007050dad652cdb47c
+p
+@music_voice/src/main/java/com/dongxie/music/ui/HomeActivity.java,c\f\cfd30ce70b5971fb4bc4dd6f05d9f81752ea8ff4
