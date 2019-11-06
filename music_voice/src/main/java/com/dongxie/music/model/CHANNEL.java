@@ -10,7 +10,7 @@ public enum CHANNEL {
 
     MY("我的", 0x01),
 
-    DISCORY("发现", 0x02),
+    DISCOVERY("发现", 0x02),
 
     FRIEND("朋友", 0x03),
 
